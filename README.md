@@ -25,13 +25,16 @@ A GenAI-powered web app that generates **engaging, creative Instagram-style capt
 ```bash
  -- git clone https://github.com/arun4589/AI-Caption-Generator.git
  -- cd AI-Caption-Generator
+```
 
+### 2. Activate the environment
  -- python -m venv caption
-# Activate the environment
+
 # On Windows:
 caption\Scripts\activate
 # On Mac/Linux:
 source caption/bin/activate
+### 3.necessary installations
 pip install -r requirements.txt
 ollama pull mistral
 ollama run mistral
