@@ -35,10 +35,12 @@ caption\Scripts\activate
 # On Mac/Linux:
 source caption/bin/activate
 ### 3.necessary installations
--pip install -r requirements.txt
--ollama pull mistral
--ollama run mistral
--streamlit run app.py
+```bash
+-- pip install -r requirements.txt
+-- ollama pull mistral
+-- ollama run mistral
+-- streamlit run app.py
+```
 
 
 
